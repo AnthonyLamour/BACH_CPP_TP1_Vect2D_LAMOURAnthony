@@ -44,9 +44,9 @@
 	}
 
 //constructeur avec paramètres par défaut
-	/*CVect2D::CVect2D(float fltY= 15.0)
+	/*CVect2D::CVect2D(float fltX, float fltY= 15.0f)
 	{
-		this->fltX = 0.0;
+		this->fltX = fltX;
 		this->fltY = fltY;
 	}*/
 

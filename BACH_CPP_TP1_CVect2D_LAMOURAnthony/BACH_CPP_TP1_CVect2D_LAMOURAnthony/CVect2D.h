@@ -36,7 +36,7 @@ public:
 	//constructeur sans paramètre
 		CVect2D();
 	//constructeur avec paramètre par défaut
-		//CVect2D(float fltY = 15.0);
+		//CVect2D(float fltX, float fltY = 15.0f);
 	//constructeur  avec paramètre
 		CVect2D(float fltX,float fltY);
 
