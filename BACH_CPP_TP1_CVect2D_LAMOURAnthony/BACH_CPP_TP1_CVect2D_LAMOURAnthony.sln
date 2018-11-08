@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BACH_CPP_TP1_CVect2D_LAMOURAnthony", "BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony.vcxproj", "{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Debug|x64.ActiveCfg = Debug|x64
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Debug|x64.Build.0 = Debug|x64
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Debug|x86.Build.0 = Debug|Win32
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Release|x64.ActiveCfg = Release|x64
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Release|x64.Build.0 = Release|x64
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Release|x86.ActiveCfg = Release|Win32
+		{AFEA2AE8-34FC-4A44-8590-022BDE806BD5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2DBAEB6-4FFE-4FCB-89DB-BC87020489FF}
+	EndGlobalSection
+EndGlobal
