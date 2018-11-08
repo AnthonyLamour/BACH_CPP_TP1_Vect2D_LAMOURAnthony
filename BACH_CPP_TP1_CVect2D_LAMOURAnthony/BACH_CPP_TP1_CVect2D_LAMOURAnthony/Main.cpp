@@ -1,3 +1,14 @@
+//********************************************************************************************************************************************************************************
+//
+// fichier : Main.cpp
+//
+// class : main
+//
+//********************************************************************************************************************************************************************************
+//08-11-2018 LAMOUR Anthony
+//08-11-2018 LAMOUR Anthony
+//********************************************************************************************************************************************************************************
+
 #include <iostream>
 //bibliothèque donnant accès à la classe string et ses fonctions
 #include <string>
@@ -10,6 +21,14 @@ int main() {
 
 	float fltAlpha;
 	float fltRes;
+	CPoint2D CPtA;
+	CPoint2D CPtB;
+
+	CPtA.setPtX(2.0);
+	CPtA.setPtY(0.0);
+
+	CPtB.setPtX(4.0);
+	CPtB.setPtY(0.0);
 
 	//utilisation des  constructeurs
 		CVect2D CVectMonVectSansParametre;
@@ -39,6 +58,10 @@ int main() {
 	//sclaire de vecteurs
 		fltRes = CVectMonVectSansParametre.scalaireVect(CVectMonVectAvecParametre);
 		std::cout << "scalaire de vecteurs :  " << fltRes << std::endl;
+
+	//norme
+		fltRes = CVectMonVectSansParametre.norme(CPtA, CPtB);
+		std::cout << "norme :  " << fltRes << std::endl;
 
 		system("pause");
 
